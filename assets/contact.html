@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Colaborativo</title>
+		<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+  		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="css/dist/bootstrap.min.css">
+		<link rel="stylesheet" href="css/dist/font-awesome.min.css">
+		<link rel="stylesheet" href="css/dist/slick.css">
+		<link rel="stylesheet" href="css/dist/slick-theme.css">
+		<link rel="stylesheet" href="css/dist/main.css">
+	</head>
+	<body>
+	<div class="container">
+		<div class="row">
+			<aside>
+				<div class="col-xs-2">
+					<img src="image/banner-aside-home.jpg" alt="Aside 1" class="img-responsive visible-lg">
+				</div>
+			</aside>
+			<section>	
+				<div class="col-xs-12">
+					<h1 class="text-center">Contactese con nosotros</h1>
+					<p>Llena este formulario si necesita enviarnos alguna informacion o mejora para le sitio. Asi mismo, puede hacer llegar a los redactores su opinion acerca de los contenidos de una determinada seccion el cual podra elegir como destinatario.</p>
+					<div class="row" id="formulario">
+						<div class="row">
+							<input class="form-control" placeholder="Nombres Completos">
+						</div>
+						<div class="row">
+							<input class="form-control" placeholder="Correo electronico">
+						</div>
+						<div class="row">
+							<input class="form-control" placeholder="Telefonos">
+							<p>(Opcional)</p>
+						</div>
+						<div class="row">
+							<h4>Elija un destinario</h4>
+						</div>	
+					<div class="row">
+						<div class="col-xs-8">
+							<div class="radio small">
+								<label>
+									<input type="radio" name="inlineRadioOptions" value="option1"><p>Sugerencia para el sitio web</p>
+									<input type="radio" name="inlineRadioOptions" value="option2"><p>Direccion periodistica</p>
+									<input type="radio" name="inlineRadioOptions" value="option3"><p>Direccion comercial</p>
+									<input type="radio" name="inlineRadioOptions" value="option4"><p>Cartas al director</p>
+									<input type="radio" name="inlineRadioOptions" value="option5"><p>Promociones y productos del diario</p>
+									<input type="radio" name="inlineRadioOptions" value="option6"><p>Archivo periodistico</p>
+								</label>
+							</div>
+						</div>
+						<div class="col-xs-8">
+							<div class="small text-right">
+								<p>(Ej. Funcionamiento y mejoras para el sitio)</p>
+								<p>(Ej. Sugerencia para la nota de prensa)</p>
+								<p>(Ej. Publicidad en diarios o sitios web)</p>
+								<p>(Ej. Denuncias, comentarios e impresiones)</p>
+								<p>(Ej. Promociones, tablet, etc)</p>
+								<p>(Ej. Ediciones impresas/fotos)</p>
+							</div>
+						</div>
+						<div class="row">
+							<textarea class="form-control" placeholder="Mensaje" rows="10">
+                            </textarea>
+                            <button type="button" class="btn btn-default center-block" data-toggle="modal" data-target="#myModal" id="botoncontacto">Enviar</button>
+                            <div id="myModal" class="modal fade" role="dialog">
+  								<div class="modal-dialog">
+    							<!-- Modal content-->
+    								<div class="modal-content">
+      									<div class="modal-header">
+        									<button type="button" class="close" data-dismiss="modal">&times;</button>
+        									<h4 class="modal-title"><img src="image/logo-la-republica.jpg" alt="Logo"></h4>
+      									</div>
+      									<div class="modal-body">
+      										<h4>GRACIAS</h4>
+        									<p>Tu mensaje ha sido enviado con exito</p>
+     									</div>
+      									<div class="modal-footer">
+        										<button type="button" class="btn btn-default"><a href="index.html">Volver al inicio</a></button>
+      									</div>
+   									</div>
+  								</div>
+							</div>
+						</div>	
+					</div>
+				</div>
+			</section>
+			<aside>	
+				<div class="col-xs-2">
+					<img src="image/banner-aside-home.jpg" alt="Aside 1" class="img-responsive visible-lg">
+				</div>
+			</aside>	
+		</div>	
+	</div>
+	</body>
+</html>
