@@ -3,11 +3,13 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Colaborativo</title>
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 		<link rel="stylesheet" href="css/dist/bootstrap.min.css">
 		<link rel="stylesheet" href="css/dist/font-awesome.min.css">
 		<link rel="stylesheet" href="css/dist/slick.css">
 		<link rel="stylesheet" href="css/dist/slick-theme.css">
 		<link rel="stylesheet" href="css/dist/main.css">
+		
 	</head>
 	<body>
 		<div class="container-fluid">
@@ -28,66 +30,79 @@
 							<div class="col-lg-8">
 								<div class="row">
 									<div class="col-lg-6">
-										<button class="btn btn-danger btn-xs">SUSCRIBETE AL BOLETIN</button>
+										<button class="btn btn-xs btn-danger">SUSCRIBETE AL BOLETIN</button>
 									</div> 
+									<div class="col-lg-4"><!--redes sociales-->								
+										<a href="#"><img src="icon/facebook-logo.png" class="icon" alt="facebook"></a>
+										<a href="#"><img src="icon/twitter.png" class="icon" alt="twitter"></a>
+										<a href="#"><img src="icon/google-plus.png" class="icon" alt="google-plus"></a>
+										<a href="#"><img src="icon/wifi.png" class="icon" alt="correo"></a>
+										<a href="#"><img src="icon/email.png" class="icon" alt=""></a>
+
+									</div>
 									<div class="col-lg-6">
-										<form action="">
-											<input type="text" placeholder="Buscar">
-										</form>
+										<p>Buscar <span class="glyphicon glyphicon-search"></span></p>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-				<hr>
-				<div class="container">
+					<hr>
 					<div class="row"><!--imagen La republica.pe-->
-						<div class="col-lg-4">
+						<div class="col-lg-5">
 							<img src="image/logo-la-republica.jpg" alt="logo-la-republica">
 						</div>
-						<div class="col-lg-4">
-							
-							
+						<div class="col-lg-4 border">
+							<span>TODO SOBRE LA CHAMPIONS LEAGUE</span>
 						</div>
 						<div class="col-lg-4">
-							<!-- <img src="image/img_editorial_text.jpg" alt="editorial">
-							<p>La corrupcion, los origenes</p>
-							<blockquote>por: Gustavo Mohme Llona</blockquote>
-							<img src="image/img_author.jpg" alt="autor"> -->
+							<img src="image/img_editorial_text.jpg" alt="editorial">
+							<span>La corrupcion, los origenes</span>
+							<blockquote class="small">por: Gustavo Mohme Llona</blockquote>
+						</div>
+						<div class="col-lg-3">
+							<img src="image/img_author.jpg" alt="autor">
 						</div>
 					</div>
-					<nav>
-						<div class="row">
-							<div class="col-lg-12"> 
-								<div class="btn-group btn-group-xs">
-									<button type="button" class="btn btn-mobile small">POLITICA</button>
-									<button type="button" class="btn btn-mobile small">ECONOMIA</button>
-									<button type="button" class="btn btn-mobile small">SOCIEDAD</button>
-									<button type="button" class="btn btn-mobile small">ELECC.REGIONALES</button>
-									<button type="button" class="btn btn-mobile small">DEPORTES</button>
-									<button type="button" class="btn btn-mobile small">CHAMPIONS L.</button>
-									<button type="button" class="btn btn-mobile small">ESPECTÁCULOS</button>
-									<button type="button" class="btn btn-mobile small">ED.IMPRESA</button>
-									<button type="button" class="btn btn-mobile small">REGIONALES</button>
-									<button type="button" class="btn btn-mobile small dropdown-toggle" data-toggle="dropdown">MAS ACCIONES <span class="caret"></span></button>
+					<nav id="main-menu"><!--primer menu-->
+						<div class="row red">
+							<div class="col-lg-16"> 
+								<div class="btn-group btn-group-lg">
+									<button type="button" data-toggle="buttons" class="btn btn-xs small red">POLITICA</button>
+									<button type="button" class="btn btn-xs small red">ECONOMIA</button>
+									<button type="button" class="btn btn-xs small red">SOCIEDAD</button>
+									<button type="button" class="btn btn-xs small red">ELECC.REGIONALES</button>
+									<button type="button" class="btn btn-xs small red">DEPORTES</button>
+									<button type="button" class="btn btn-xs small red">CHAMPIONS L.</button>
+									<button type="button" class="btn btn-xs small red">ESPECTÁCULOS</button>
+									<button type="button" class="btn btn-xs small red">ED.IMPRESA</button>
+									<button type="button" class="btn btn-xs small red">REGIONALES</button>
+									<button type="button" class="btn btn-xs small red dropdown-toggle" data-toggle="dropdown">MAS ACCIONES <span class="caret"></span></button>
 								</div>				
 							</div>
 						</div>
 					</nav>
-					<nav>
-						<div class="row">
+				</div>	
+			</header>
+			<aside><!--aside isquierdo-->
+				<div class="row">
+				   <div class="col-lg-2">
+				   		<img src="image/banner_aside.jpg" class="aside" alt="">
+				   </div>
+				   <div class="col-lg-8">
+				   	<nav>	
+						<div class="row"><!--segundo menu-->
 							<div class="col-lg-12">
-								<button type="button" class="btn btn-default btn-block">
-									<li class="list2"><a href="#">Globos de oro</a></li>
-									<li class="list2"><a href="#">Youtube</a></li>
-									<li class="list2"><a href="#">PNP</a></li>
-									<li class="list2"><a href="#">Cahrlie Hedbo</a></li>
-									<li class="list2"><a href="#">FC Barcelona</a></li>
-									<li class="list2"><a href="#">Alianza Lima</a></li>
-									<li class="list2"><a href="#">Balon de Oro</a></li>
-									<li class="list2"><a href="#">Alianza Lima</a></li>
-									<li class="list2"><a href="#">Balón</a></li>
+								<button type="button" class="btn btn-default  btn-block">
+									<li class="list"><a href="#">Globos de oro</a></li>
+									<li class="list"><a href="#">Youtube</a></li>
+									<li class="list"><a href="#">PNP</a></li>
+									<li class="list"><a href="#">Cahrlie Hedbo</a></li>
+									<li class="list"><a href="#">FC Barcelona</a></li>
+									<li class="list"><a href="#">Alianza Lima</a></li>
+									<li class="list"><a href="#">Balon de Oro</a></li>
+									<li class="list"><a href="#">Alianza Lima</a></li>
+									<li class="list"><a href="#">Balón</a></li>
 								</button>
 							</div>
 						</div>
@@ -97,23 +112,14 @@
 							</div>
 						</div>
 					</nav>
-				</div>	
-			</header>
-			<aside><!--aside-->
-				<div class="row">
-				   <div class="col-lg-2">
-				   		<img src="image/banner_aside.jpg" class="aside" alt="">
+				   	
 				   </div>
-				   
-					
+				   <div class="col-lg-2"><!--aside derecho-->
+				   		 <img src="image/banner_aside.jpg" class="aside1" alt="">
+				   </div>	
 				</div>
 			</aside>
-			</div>
-		
-		
-				
-
-		
+		</div>		
 
 	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
   	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
