@@ -3,136 +3,257 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Colaborativo</title>
+		<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+  		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 		<link rel="stylesheet" href="css/dist/bootstrap.min.css">
 		<link rel="stylesheet" href="css/dist/font-awesome.min.css">
 		<link rel="stylesheet" href="css/dist/slick.css">
 		<link rel="stylesheet" href="css/dist/slick-theme.css">
 		<link rel="stylesheet" href="css/dist/main.css">
-		
 	</head>
 	<body>
 		<div class="container-fluid">
 			<header>
 				<div class="container">
 					<div class="row">
-						<div class="col-lg-12">
-							<img src="image/banner_top.jpg" alt="banner"><!--banner-->
+						<div class="col-lg-16">
+							<img src="image/banner_top.jpg" class="img-responsive" alt="banner"><!--banner-->
 						</div>
-						<div class="row"><!--redes sociales y suscribcion-->
-							<div class="col-lg-8">
-								<ul>
-									<li class="list"><a href="#" class="small">LIBERO.PE</a></li>
-									<li class="list"><a href="#" class="small">EL POPULAR.PE</a></li>
-									<li class="list"><a href="#" class="small">FUNDACION GUSTAVO MOHME LLONA</a></li>
-								</ul>
-							</div>
-							<div class="col-lg-8">
-								<div class="row">
-									<div class="col-lg-6">
-										<button class="btn btn-xs btn-danger">SUSCRIBETE AL BOLETIN</button>
-									</div> 
-									<div class="col-lg-4"><!--redes sociales-->								
-										<a href="#"><img src="icon/facebook-logo.png" class="icon" alt="facebook"></a>
-										<a href="#"><img src="icon/twitter.png" class="icon" alt="twitter"></a>
-										<a href="#"><img src="icon/google-plus.png" class="icon" alt="google-plus"></a>
-										<a href="#"><img src="icon/wifi.png" class="icon" alt="correo"></a>
-										<a href="#"><img src="icon/email.png" class="icon" alt=""></a>
-
-									</div>
-									<div class="col-lg-6">
-										<p>Buscar <span class="glyphicon glyphicon-search"></span></p>
-									</div>
+					</div>
+					<div class="row"><!--redes sociales y suscribcion-->
+						<div class="col-lg-8">
+							<ul>
+								<li class="list"><a href="#" class="small">LIBERO.PE</a></li>
+								<li class="list"><a href="#" class="small">EL POPULAR.PE</a></li>
+								<li class="list"><a href="#" class="small">FUNDACION GUSTAVO MOHME LLONA</a></li>
+							</ul>
+						</div>
+						<div class="col-lg-8">
+							<div class="row">
+								<div class="col-lg-6">
+									<button class="btn btn-xs btn-danger">SUSCRIBETE AL BOLETIN</button>
+								</div> 
+								<div class="col-lg-4"><!--redes sociales-->								
+									<a href="#"><img src="icon/facebook-logo.png" class="icon" alt="facebook"></a>
+									<a href="#"><img src="icon/twitter.png" class="icon" alt="twitter"></a>
+									<a href="#"><img src="icon/google-plus.png" class="icon" alt="google-plus"></a>
+									<a href="#"><img src="icon/wifi.png" class="icon" alt="correo"></a>
+									<a href="#"><img src="icon/email.png" class="icon" alt=""></a>
+								</div>
+								<div class="col-lg-6">
+									<p>Buscar <span class="glyphicon glyphicon-search"></span></p>
 								</div>
 							</div>
 						</div>
 					</div>
-					<hr>
+				</div>
+				<hr>
 					<div class="row"><!--imagen La republica.pe-->
-						<div class="col-lg-5">
-							<img src="image/logo-la-republica.jpg" alt="logo-la-republica">
+						<div class="col-lg-6">
+							<img src="image/logo-la-republica.jpg" class="img-responsive" alt="logo-la-republica">
 						</div>
-						<div class="col-lg-4 border">
+						<div class="col-lg-3 border">
 							<span>TODO SOBRE LA CHAMPIONS LEAGUE</span>
 						</div>
 						<div class="col-lg-4">
-							<img src="image/img_editorial_text.jpg" alt="editorial">
+							<img src="image/img_editorial_text.jpg" class="img-responsive" alt="editorial">
 							<span>La corrupcion, los origenes</span>
 							<blockquote class="small">por: Gustavo Mohme Llona</blockquote>
 						</div>
 						<div class="col-lg-3">
-							<img src="image/img_author.jpg" alt="autor">
+							<img src="image/img_author.jpg" class="img-responsive" alt="autor">
 						</div>
 					</div>
-					<nav id="main-menu"><!--primer menu-->
-						<div class="row red">
-							<div class="col-lg-16"> 
-								<div class="btn-group btn-group-lg">
+					
+					<div class="row red">
+						<nav><!--primer menu-->
+							<div class="col-lg-12"> 
+								<div class="btn-group center-block" >
 									<button type="button" data-toggle="buttons" class="btn btn-xs small red">POLITICA</button>
-									<button type="button" class="btn btn-xs small red">ECONOMIA</button>
-									<button type="button" class="btn btn-xs small red">SOCIEDAD</button>
-									<button type="button" class="btn btn-xs small red">ELECC.REGIONALES</button>
-									<button type="button" class="btn btn-xs small red">DEPORTES</button>
-									<button type="button" class="btn btn-xs small red">CHAMPIONS L.</button>
-									<button type="button" class="btn btn-xs small red">ESPECTÁCULOS</button>
-									<button type="button" class="btn btn-xs small red">ED.IMPRESA</button>
+									<button type="button" class="btn btn-xs small red"><img src="image/main_menu_sep.jpg" alt="">ECONOMIA</button>
+									<button type="button" class="btn btn-xs small red"><img src="image/main_menu_sep.jpg" alt="">SOCIEDAD</button>
+									<button type="button" class="btn btn-xs small red"><img src="image/main_menu_sep.jpg" alt="">ELECC.REGIONALES</button>
+									<button type="button" class="btn btn-xs small red"><img src="image/main_menu_sep.jpg" alt="">DEPORTES</button>
+									<button type="button" class="btn btn-xs small red"><img src="image/main_menu_sep.jpg" alt="">CHAMPIONS L.</button>
+									<button type="button" class="btn btn-xs small red"><img src="image/main_menu_sep.jpg" alt="">ESPECTÁCULOS</button>
+									<button type="button" class="btn btn-xs small red"><img src="image/main_menu_sep.jpg" alt="">ED.IMPRESA</button>
 									<button type="button" class="btn btn-xs small red">REGIONALES</button>
 									<button type="button" class="btn btn-xs small red dropdown-toggle" data-toggle="dropdown">MAS ACCIONES <span class="caret"></span></button>
 								</div>				
 							</div>
-						</div>
-					</nav>
-				</div>	
+						</nav>
+					</div>	
 			</header>
-			<aside class=""><!--aside isquierdo-->
+			<aside><!--aside isquierdo-->
 				<div class="row">
 				   <div class="col-lg-2">
-				   		<img src="image/banner_aside.jpg" class="aside" alt="">
+				   		<img src="image/banner_aside.jpg" class="img-responsive" alt="">
 				   </div>
-				   <div class="col-lg-8">
-				   	<nav>	
+				   <div class="col-lg-12">
 						<div class="row"><!--segundo menu-->
-							<div class="col-lg-12">
-								<button type="button" class="btn btn-default  btn-block">
-									<li class="list"><a href="#">Globos de oro</a></li>
-									<li class="list"><a href="#">Youtube</a></li>
-									<li class="list"><a href="#">PNP</a></li>
-									<li class="list"><a href="#">Cahrlie Hedbo</a></li>
-									<li class="list"><a href="#">FC Barcelona</a></li>
-									<li class="list"><a href="#">Alianza Lima</a></li>
-									<li class="list"><a href="#">Balon de Oro</a></li>
-									<li class="list"><a href="#">Alianza Lima</a></li>
-									<li class="list"><a href="#">Balón</a></li>
-								</button>
+							<div class="col-lg-16">	
+								<nav>	
+									<button type="button" class="btn btn-default  btn-block">
+										<li class="list"><a href="#">Globos de oro</a></li>
+										<li class="list"><a href="#">Youtube</a></li>
+										<li class="list"><a href="#">PNP</a></li>
+										<li class="list"><a href="#">Cahrlie Hedbo</a></li>
+										<li class="list"><a href="#">FC Barcelona</a></li>
+										<li class="list"><a href="#">Alianza Lima</a></li>
+										<li class="list"><a href="#">Balon de Oro</a></li>
+										<li class="list"><a href="#">Alianza Lima</a></li>
+										<li class="list"><a href="#">Balón</a></li>
+									</button>
+								</nav>
 							</div>
 						</div>
 						<div class="row">
-							<div class="col-lg-12">
-								<img src="image/banner-header.jpg" alt="banner-header">	
+							<div class="col-lg-16">
+								<img src="image/banner-header.jpg" class="img-responsive" alt="banner-header">	
 							</div>
 						</div>
-					</nav>
-				   	
 				   </div>
 				   <div class="col-lg-2"><!--aside derecho-->
-				   		 <img src="image/banner_aside.jpg" class="aside1" alt="">
+				   		 <img src="image/banner_aside.jpg" class="img-responsive" alt="">
 				   </div>	
 				</div>
 			</aside>
-			
-		</div>
-		<footer>
-			<div class="row">
-				<div class="col-lg-7">
-					<img src="image/logo-grupo-la-republica.png" alt="">	
-				</div>
-				<div class="col-lg-2">
+			<footer>
+				<div class="row  gray">
+					<div class="col-lg-5 img-responsive">
+						<img src="image/logo-grupo-la-republica.png" class="grupo" alt="logo footer">	
+						<p>Grupo La Republica Digital</p>
+						<p>Jr. Camaná 320  Cercado de Lima</p>
+						<p>Tel. 711-6000</p>
+						<p>(Cerca telefonica)</p>
+						<small>Todos los derechos reservados - 2015</small>
+					</div>
+					<div class="col-lg-1">
+						<img src="image/nota_galeria_border.png" class="img-responsive vertical-align" alt="">
+					</div>
+					<div class="col-lg-2">	
+						<ul>
+							<li class="small list1">Roger Federer</li>
+							<li class="small list1">SBS</li>
+							<li class="small list1">Scarlett </li>
+							<li class="small list1">Scontianbanck</li>
+							<li class="small list1">Selena Gomez</li>
+							<li class="small list1">Spiderman</li>
+							<li class="small list1">Sporting Cristal</li>
+							<li class="small list1">Sunat</li>
+							<li class="small list1">Telefonica de Peru</li>
+							<li class="small list1">The Walking Dead</li>
+							<li class="small list1">Twitter</li>
+							<li class="small list1">Universidad Cesar Vallejo</li>
+							<li class="small list1">Universidad San Martin</li>
+							<li class="small list1">Universidad de Deportes</li>
+							<li class="small list1">Xbox</li>
+							<li class="small list1">Youtube</li>
+							<li class="small list1">Bayern Munich</li>
+							<li class="small list1">Bayern Munich</li>
+							<li class="small list1">BBVA</li>
+							<li class="small list1">Xbox</li>
+							<li class="small list1">BCP</li>
+						</ul>
+					</div>
+					<div class="col-lg-2">
+						<ul>
+							<li class="small list1">Al fondo hay sitio</li>
+							<li class="small list1">Alejandro Toledo</li>
+							<li class="small list1">Alianza Lima</li>
+							<li class="small list1">Alianza Lima</li>
+							<li class="small list1">Banco de la nacion</li>
+							<li class="small list1">Barack Obama</li>
+							<li class="small list1">Universidad Cesar</li>
+							<li class="small list1">Vallejo</li>
+							<li class="small list1">Universidad San Martin</li>
+							<li class="small list1">Barcelona</li>
+							<li class="small list1">Bayern Munich</li>
+							<li class="small list1">Bayern Munich </li>
+							<li class="small list1">BBVA</li>
+							<li class="small list1">Xbox</li>
+							<li class="small list1">BCP</li>
+							<li class="small list1">Batman</li>
+							<li class="small list1">Bayern Munich</li>
+							<li class="small list1">Bayern Munich</li>
+							<li class="small list1">BBVA</li>
+							<li class="small list1">Xbox</li>
+							<li class="small list1">BCP</li>
+						</ul>
+					</div>
+						<div class="col-lg-2">
+						<ul>
+							<li class="small list1">One Direction</li>
+							<li class="small list1">OnPE</li>
+							<li class="small list1">Pablo Escobar</li>
+							<li class="small list1">Paolo Guerrero</li>
+							<li class="small list1">Pension 65</li>
+							<li class="small list1">PNP</li>
+							<li class="small list1">Precio del dollar</li>
+							<li class="small list1">Universidad Cesar Vallejo</li>
+							<li class="small list1">Universidad San Martin</li>
+							<li class="small list1">Premier League</li>
+							<li class="small list1">Bayern Munich</li>
+							<li class="small list1">Bayern Munich </li>
+							<li class="small list1">BBVA</li>
+							<li class="small list1">Xbox</li>
+							<li class="small list1">BCP</li>
+							<li class="small list1">Proyecto Conga</li>
+							<li class="small list1">PUCP</li>
+							<li class="small list1">Real Madrid</li>
+							<li class="small list1">Redes Sociales</li>
+							<li class="small list1">Reniec</li>
+							<li class="small list1">Robert Pattinson </li>
+						</ul>
+					</div>
+					<div class="col-lg-2">
+						<ul>
+							<li class="small list1">Al fondo hay sitio</li>
+							<li class="small list1">Alejandro Toledo</li>
+							<li class="small list1">Alianza Lima</li>
+							<li class="small list1">Alianza Lima</li>
+							<li class="small list1">Banco de la nacion</li>
+							<li class="small list1">Barack Obama</li>
+							<li class="small list1">Universidad Cesar</li>
+							<li class="small list1">Vallejo</li>
+							<li class="small list1">Universidad San Martin</li>
+							<li class="small list1">Barcelona</li>
+							<li class="small list1">Bayern Munich</li>
+							<li class="small list1">Bayern Munich </li>
+							<li class="small list1">BBVA</li>
+							<li class="small list1">Xbox</li>
+							<li class="small list1">BCP</li>
+							<li class="small list1">Batman</li>
+							<li class="small list1">Bayern Munich</li>
+							<li class="small list1">Bayern Munich</li>
+							<li class="small list1">BBVA</li>
+							<li class="small list1">Xbox</li>
+							<li class="small list1">BCP</li>
 					
+						</ul>
+					</div>
 				</div>
-			</div>
-		</footer>		
-
-	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+				<div class="row">
+					<div class="col-lg-16">
+					<img src="image/nota_galeria_border.png" class="img-responsive" alt="">
+						<ul>
+							<li class="list small">Diarios del PAL: Clarin |</li>
+							<li class="list small">La Tercera |</li>
+							<li class="list small">El Universal Colombia |</li>
+							<li class="list small">El Univrsal Venezuela |</li>
+							<li class="list small">Vanguardia |</li>
+							<li class="list small">La Prensa |</li>
+							<li class="list small">El Salvador |</li>
+							<li class="list small">La Verdad |</li>
+							<li class="list small">Diario Libre |</li>
+							<li class="list small">Diario de hoy |</li>
+							<li class="list small">El Colombiano </li>
+						</ul>
+					
+					</div>
+				</div>
+			</footer>	
+		</div>	
 	</body>
 </html>

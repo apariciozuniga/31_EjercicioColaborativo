@@ -10,22 +10,31 @@
 .border{
 	border: 1px solid black;
 }
-.aside{
-	width: 120%;
-	height: 150%;
-}
+
 
 .circle{
 	border-radius: 10%;
 }
-.aside1{
-	width: 120%;
-	height: 150%;
-	margin-left: 210%;
-}
+
 .red{
 	background-color: red;
 }
 .icon{
 	margin-left: 1%;
+}
+.gray{
+	background-color: #f2f2f2;
+	padding: 2%;
+}
+.list1{
+	list-style: none;
+}
+.text-white{
+	color: white;
+}
+.grupo{
+	padding: 10%;
+}
+.vertical{
+	text-transform: vertical;
 }
