@@ -17,3 +17,10 @@
 	width: 120%;
 	height: 150%;
 }
+
+/*BLOG*/
+.cont {
+	border: 1px solid black;
+	background-color: blue;
+	padding: 2% !important;
+}
