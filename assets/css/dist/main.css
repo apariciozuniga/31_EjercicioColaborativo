@@ -1,0 +1,53 @@
+.list{
+	display: inline;
+	
+}
+
+.red{
+	background-color: red;
+}
+.border{
+	border: 1px solid black;
+}
+
+.circle{
+	border-radius: 10%;
+}
+.red{
+	background-color: red;
+}
+.icon{
+	margin-left: 1%;
+}
+.gray{
+	background-color: #f2f2f2;
+	padding: 1%;
+}
+.list1{
+	list-style: none;
+}
+.text-white{
+	color: white;
+}
+.grupo{
+	padding: 10%;
+}
+
+.text-center{
+	text-align: center;
+}
+.border1{
+	border-radius: 5% solid black;
+
+}
+.white{
+	color: white;
+}
+.imagen{
+	width: 100%;
+	height: 100%;
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> a8100d7dc55aad7f02f74e790227700409d1206f
