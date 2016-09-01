@@ -34,15 +34,13 @@
 }
 .list1{
 	list-style: none;
+	text-decoration: none;
 }
-.text-white{
+.white{
 	color: white;
 }
 .grupo{
 	padding: 10%;
-}
-.text-center{
-	text-align: center;
 }
 .border1{
 	border-radius: 5% solid black;
