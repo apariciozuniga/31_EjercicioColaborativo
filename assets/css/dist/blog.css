@@ -1,25 +1,19 @@
-.list{
-	display: inline-block;
-	text-decoration: none;
-
-}
-.list2{
-	display: inline-block;
-}
-.red{
-	background-color: red;
-}
-.border{
-	border-radius: 10%;
-	border: 1px solid black;
-}
-img {
-	display: inline-block;
-}
 /*ASIDE BLOG*/
-.blog {
+img {
+	
+}
+.foto1 {
+	width: 70%;
 	width: 100%;
 }
+.foto {
+	border: 2px solid white;
+	width: 100%;
+}
+aside img {
+	width: 100%;
+}
+/*SECCIONES*/
 .rect {
 	border: 1px solid black;
 }
@@ -30,6 +24,12 @@ img {
 .mar-8 {
 	margin-top: 8%;
 }
+.mar-8 {
+	margin-top: 8%;
+}
+.mar-4 {
+	margin: 6% 0;
+}
 .pad-3 {
 	padding: 3%;
 }
@@ -37,14 +37,20 @@ img {
 .c-Neg {
 	font-weight: bold;
 }
+h4 small {
+	color: white !important;
+}
 /*FONDOS*/
 .fn-gray {
 	background-color: gray;
-	margin: 0 !important;
-	padding: 0 2% !important; 
+	margin: 0 3% 3% !important;
+	padding: 6% 0;
 }
 @media screen and (max-width:720px) {
 	.mar-8 {
 		margin-top: 10%;
+	}
+	.foto1 {
+		width: 100%;
 	}
 }
