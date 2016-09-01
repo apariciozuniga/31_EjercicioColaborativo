@@ -54,3 +54,95 @@
 }
 >>>>>>> a8100d7dc55aad7f02f74e790227700409d1206f
 >>>>>>> e0c9129ff3ef32237c0bc4ed5d66c6ab2041c91f
+.caj-icon {
+	width: 350px;
+	margin-top:4%;
+}
+.borde-rojo-home {
+	border-top: solid 4px red;
+}
+.home-sec-text-blue {
+	color: #4376AD;
+	margin-top: 10%;
+}
+.inline-block {
+	display: inline-block;
+}
+.bordebajo {
+	border-bottom: 1px solid darkgray;
+	padding-bottom: 3%;
+	margin-bottom:3%;
+}
+.margin-top-home {
+	margin-top: 3%;
+}
+.margin-top-neg {
+	margin-top: -1%;
+}
+.border-home {
+	border:.5px solid darkgray;
+}
+.text-red-home {
+	color: red;
+}
+.bg-col-home {
+	background-color: #EDECF7;
+	padding: 2%;
+}
+/*Inicia Estilos de Home_Aside*/
+.home-aside-linea{
+	display: inline-block;
+}
+.home-aside-md-sup{
+	margin-top: 4em;
+}
+.home-aside-md-negativo{
+	margin-top: -3em;
+}
+.home-aside-md-bottom1{
+	margin-bottom: 1em;
+}
+.home-aside-hr{
+	border:2px solid gray;
+}
+.home-aside-hr-r{
+	border:2px solid #ff0000;
+}
+.home-aside-hr-roja{
+	border:2px solid #ff0000;
+	width: 50%;
+}
+.home-aside-hr-amarillo{
+	border:2px solid yellow;
+	width: 50%;
+}
+.home-aside-hr-rosa{
+	border:2px solid #CC3366;
+	width: 50%;
+}
+.home-aside-cuadro{
+	width: 80%;
+	height: 20%;
+	background-color: white;
+	opacity: 0.7;
+	margin-top: -4em;
+}
+.home-aside-ColorGray{
+	background-color: gray;
+}
+.home-aside-ColorRojo{
+	background-color: #ff0000;
+}
+.home-aside-CWhite{
+	color: white;
+}
+.home-aside-CRed{
+	color: #ff0000;
+}
+.home-aside-CRosa{
+	color: #CC3366;
+}
+.home-aside-pull-center{
+	position: relative;
+	top: 50%;
+}
