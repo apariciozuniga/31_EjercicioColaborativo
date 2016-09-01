@@ -38,13 +38,3 @@ img {
 	font-weight: bold;
 }
 /*FONDOS*/
-.fn-gray {
-	background-color: gray;
-	margin: 0 !important;
-	padding: 0 2% !important; 
-}
-@media screen and (max-width:720px) {
-	.mar-8 {
-		margin-top: 10%;
-	}
-}
