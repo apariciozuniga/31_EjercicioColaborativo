@@ -1,6 +1,6 @@
 .list{
-	display: inline-block;
-	text-decoration: none;
+	display: inline;
+	
 
 }
 
@@ -24,7 +24,7 @@
 }
 .gray{
 	background-color: #f2f2f2;
-	padding: 2%;
+	padding: 3%;
 }
 .list1{
 	list-style: none;
@@ -35,6 +35,14 @@
 .grupo{
 	padding: 10%;
 }
-.vertical{
-	text-transform: vertical;
+
+.text-center{
+	text-align: center;
+}
+.border1{
+	border-radius: 5% solid black;
+
+}
+.text-right{
+	text-align: right;
 }
