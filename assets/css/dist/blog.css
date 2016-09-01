@@ -1,21 +1,45 @@
-/*ASIDE BLOG*/
-img {
+/*HEADER & FOOTER*/
+.list2{
+	border-left: 1px solid #848484;
 	
 }
-.foto1 {
-	width: 70%;
-	width: 100%;
+.c-Ne {
+	color: black !important;
+	padding: 0 2%;
 }
+.c-Ne:hover {
+	color: gray !important;
+}
+.red{
+	background-color: red;
+}
+.border{
+	border-radius: 10px;
+	border: 1px solid black;
+}
+.gray{
+	background-color: #f2f2f2;
+	padding: 2%;
+}
+.list1{
+	list-style: none;
+}
+.grupo{
+	padding: 10%;
+}
+/*FOTOS*/
 .foto {
-	border: 2px solid white;
 	width: 100%;
 }
-aside img {
-	width: 100%;
+.foto1 {
+	width: 80%;
+}
+.foto, .foto1 {
+	border: 2px solid white;
 }
 /*SECCIONES*/
 .rect {
-	border: 1px solid black;
+	border: 1px solid #BDBDBD;
 }
 /*MARGENES - PADDING*/
 .mar-10 {
@@ -27,9 +51,6 @@ aside img {
 .mar-8 {
 	margin-top: 8%;
 }
-.mar-6 {
-	margin: 6% 0;
-}
 .mar-1 {
 	margin-top: 1%;
 }
@@ -37,11 +58,24 @@ aside img {
 	padding: 3%;
 }
 /*TEXTO*/
-.c-Neg {
+h4 small, .list {
+	color: white !important;
+}
+p+h4 a {
+	color: black !important;
 	font-weight: bold;
 }
-h4 small {
-	color: white !important;
+p+h4 a:hover {
+	color: #BDBDBD !important;
+}
+.let {
+	font-size: .65em;
+}
+a {
+	text-decoration: none !important;
+}
+.aside {
+	width: 90%;
 }
 /*FONDOS*/
 .fn-gray {
@@ -49,10 +83,26 @@ h4 small {
 	margin: 0 3% 3% !important;
 	padding: 6% 0;
 }
-@media screen and (max-width:720px) {
-	
-	
+.fn-gray:hover {
+	background-color: #BDBDBD;
 }
-.let {
-	font-size: .65em;
+.fa-angle-double-down {
+	color: #8A0829;
+}
+@media screen and (min-width:980px) {
+	.mar-6 {
+		margin: 8% 0;
+	}
+}
+@media screen and (max-width:680px) {
+	.rect {
+		padding: 5% 7%;
+	}
+	.rect:hover {
+		background-color: gray;
+		color: white;	
+	}
+	.rect:hover h4 a {
+		color: #BDBDBD !important;
+		}
 }
