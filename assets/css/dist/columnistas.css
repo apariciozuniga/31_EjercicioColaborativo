@@ -28,3 +28,11 @@
 	width: 221px;
 	margin: 0.5%;
 }
+.cu:hover{
+	background:red;
+	color: white;
+}
+.col_bor:hover{
+	background: blue;
+	color: white;
+}
