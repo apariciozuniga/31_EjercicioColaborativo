@@ -10,11 +10,9 @@
 	border: 1px solid black;
 }
 
-
 .circle{
 	border-radius: 10%;
 }
-
 .red{
 	background-color: red;
 }
@@ -23,7 +21,7 @@
 }
 .gray{
 	background-color: #f2f2f2;
-	padding: 2%;
+	padding: 1%;
 }
 .list1{
 	list-style: none;
@@ -42,6 +40,6 @@
 	border-radius: 5% solid black;
 
 }
-.text-right{
-	text-align: right;
+.white{
+	color: white;
 }
