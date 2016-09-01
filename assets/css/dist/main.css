@@ -13,18 +13,3 @@
 	border-radius: 10%;
 	border: 1px solid black;
 }
-#formulario{
-	margin-top: 5%;
-	margin-left: 10%;
-	margin-right: 10%;
-	text-shadow: 20%;
-}
-.form-control{
-	margin-bottom:2%;
-}
-#botoncontacto{
-	background-color: black;
-	color:white;
-	width: 50%;
-	font-size: 1.5em;
-}

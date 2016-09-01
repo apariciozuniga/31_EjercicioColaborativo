@@ -1,0 +1,56 @@
+/*CSS de CONTACTO*/
+#formulario{
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	text-shadow: 20%;
+}
+.form-control{
+	margin-bottom:2%;
+}
+#botoncontacto{
+	background-color: black;
+	color:white;
+	width: 50%;
+	font-size: 1.5em;
+	margin-bottom: 5%;
+}
+/*navegador y footer*/
+.list{
+	display: inline;	
+}
+.red{
+	background-color: red;
+}
+.border{
+	border: 1px solid black;
+}
+.red{
+	background-color: red;
+	padding: 1%;
+}
+.icon{
+	margin-left: 1%;
+}
+.list1{
+	list-style: none;
+}
+.text-white{
+	color: white;
+}
+.grupo{
+	padding: 10%;
+}
+.text-center{
+	text-align: center;
+}
+.border1{
+	border-radius: 5% solid black;
+}
+.bco{
+	background-color: white;
+}
+.gr{
+	background-color: #F2f2f2;
+	padding:2%;
+}
