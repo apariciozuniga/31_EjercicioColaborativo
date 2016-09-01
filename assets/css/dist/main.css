@@ -1,7 +1,6 @@
 .list{
 	display: inline;
 	
-
 }
 
 .red{
@@ -24,7 +23,7 @@
 }
 .gray{
 	background-color: #f2f2f2;
-	padding: 3%;
+	padding: 2%;
 }
 .list1{
 	list-style: none;
